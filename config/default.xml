@@ -1,6 +1,6 @@
 <config>
   <!-- data resolution: depending on sensor -->
-  <param name="data_width" type="integer">900</param>
+  <param name="data_width" type="integer">360</param>
   <param name="data_height" type="integer">64</param>
   <param name="data_fov_up" type="float">22.5</param>
   <param name="data_fov_down" type="float">-22.5</param>
@@ -41,7 +41,7 @@
   <param name="iterative_cutoff" type="boolean">false</param>
   
   <!-- laser mapping or odometry approach, i.e., frame-to-frame, frame-to-model, ... -->  
-  <param name="approach" type="string">frame-to-model</param>
+  <param name="approach" type="string">frame-to-frame</param>
     
   <param name="min_radius" type="float">0.05</param>
   <param name="max_radius" type="float">1.0</param>
